@@ -4,7 +4,7 @@ services:
    build:
     context: ./
     dockerfile: Dockerfile
-   image: mrs:v3.0.0
+   image: mrs:v4.0.0
    container_name: mrs
    ports:
    - 8081:8081

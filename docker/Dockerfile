@@ -1,4 +1,4 @@
-FROM openjdk:17.0.2-jdk-bullseye
+FROM openjdk:22-jdk-bookworm
 COPY mrs.jar /usr/local/
 WORKDIR /usr/local/
 CMD java -jar mrs.jar
